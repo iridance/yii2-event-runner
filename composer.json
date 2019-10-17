@@ -1,0 +1,32 @@
+{
+    "name": "irice/yii2-event-runner",
+    "description": "Event callback extension for Yii2",
+    "type": "yii2-extension",
+    "keywords": ["yii2","extension"],
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/iridance/yii2-event-runner/issues",
+        "source": "https://github.com/iridance/yii2-event-runner"
+    },
+    "authors": [
+        {
+            "name": "irice",
+            "email": "sgetaplus@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "yiisoft/yii2": "~2.0.14"
+    },
+    "autoload": {
+        "psr-4": {
+            "event\\runner\\": "src"
+        }
+    },
+    "repositories": [
+        {
+            "type": "composer",
+            "url": "https://asset-packagist.org"
+        }
+    ]
+}
